@@ -1,0 +1,31 @@
+
+# Dependencias
+node_modules/
+
+# Salidas de compilación
+dist/
+coverage/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Paquetes generados
+*.tgz
+
+# Logs y cachés
+npm-debug.log*
+*.log
+.vite/
+.cache/
+
+# Sistema operativo y editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Archivos de prueba con datos personales
+test-data/
+private-test-data/
